@@ -5,7 +5,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
     $ip = $_POST['ip'];
     if (filter_var($ip, FILTER_VALIDATE_IP)) {
         // Establish a database connection (replace with your actual database credentials)
-        $db_host = 'localhost';
+        $db_host = 'hayzeltech.com';
         $db_user = 'hayzelte_IPDatabase';
         $db_pass = 'hayzelte_IPDatabase';
         $db_name = 'hayzelte_IPDatabase';
