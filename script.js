@@ -47,7 +47,7 @@ const handleFormData = (e) => {
     formData.append("ip", ip);
 
     // Send an AJAX request to the PHP script
-    fetch("ipchecker.php", {
+    fetch("https://hayzeltech.com/ipchecker2/ipchecker.php", {
         method: "POST",
         body: formData,
     })
